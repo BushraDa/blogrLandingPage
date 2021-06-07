@@ -1,0 +1,54 @@
+header {
+    height: 450px;
+    background-image: url(../images/bg-pattern-intro.svg), linear-gradient(to right ,hsl(13, 100%, 72%),hsl(353, 100%, 62%) );
+    background-position: center;
+    border-bottom-left-radius: 100px;
+}
+
+.header-content {
+    height: 350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 {
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-position-x: 120%;
+    background-position-y: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    background-image: url(../images/illustration-phones.svg), linear-gradient(to right ,hsl(237, 17%, 21%),hsl(237, 23%, 32%) );
+    background-position-x: 10%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.section3 {
+    height: 700px;
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-position-x: -40%;
+    background-position-y: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+/*.section2 img {
+    width: 100%;
+    position: absolute;
+    top: -200px;
+}*/
+
+section {
+    padding: 9%;
+}
+section h1 {
+    padding-bottom: 6%;
+}
+section h3 {
+    margin-bottom: 4%;
+}
