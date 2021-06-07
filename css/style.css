@@ -3,6 +3,43 @@ header {
     background-image: url(../images/bg-pattern-intro.svg), linear-gradient(to right ,hsl(13, 100%, 72%),hsl(353, 100%, 62%) );
     background-position: center;
     border-bottom-left-radius: 100px;
+    color: hsl(0, 0%, 100%);
+}
+header nav a {
+    color: hsl(0, 0%, 100%);
+}
+header nav a:hover {
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline !important;
+}
+header .navbar-brand {
+    padding-right: 40px;
+}
+header nav>div {
+    align-self: flex-end;
+}
+.btn1 {
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    font-weight: 600;
+}
+
+.btn1:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn2 {
+    border-radius: 30px;
+    background-color: hsl(356, 100%, 66%);
+    border-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.btn2:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
 }
 
 .header-content {
@@ -18,6 +55,7 @@ header {
     background-position-y: center;
     background-size: 50%;
     background-repeat: no-repeat;
+    color: hsl(207, 13%, 34%);
 }
 
 .section2 {
@@ -27,6 +65,10 @@ header {
     background-repeat: no-repeat;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
+    color: hsl(240, 2%, 79%);
+}
+.section2 h1 {
+    color: hsl(0, 0%, 100%);
 }
 
 .section3 {
@@ -36,15 +78,15 @@ header {
     background-position-y: center;
     background-size: 60%;
     background-repeat: no-repeat;
+    color: hsl(207, 13%, 34%);
 }
-/*.section2 img {
-    width: 100%;
-    position: absolute;
-    top: -200px;
-}*/
+
+.section1 h1, .section1 h3, .section3 h3 {
+    color: hsl(208, 49%, 24%);
+}
 
 section {
-    padding: 9%;
+    padding: 9% 0;
 }
 section h1 {
     padding-bottom: 6%;
@@ -52,3 +94,30 @@ section h1 {
 section h3 {
     margin-bottom: 4%;
 }
+
+footer {
+    padding: 6% 0;
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(240, 2%, 79%);
+}
+footer a {
+    color: hsl(240, 2%, 79%);
+}
+footer a:hover {
+    color: hsl(240, 2%, 79%);
+    text-decoration: underline;
+}
+
+footer ul li:first-child {
+    padding-bottom: 10%;
+    color: hsl(240, 2%, 79%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    background-color: hsl(240, 10%, 16%); 
+    color: hsl(240, 2%, 79%); 
+    padding-bottom: 30px; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
