@@ -13,64 +13,62 @@
 <body>
 
   <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.svg" >
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" 
-          data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="drop1" 
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Product
-              </a>
-              <div class="dropdown-menu" aria-labelledby="drop1">
-                <a class="dropdown-item" href="#">Overview</a>
-                <a class="dropdown-item" href="#">Pricing</a>
-                <a class="dropdown-item" href="#">Marketplace</a>
-                <a class="dropdown-item" href="#">Features</a>
-                <a class="dropdown-item" href="#">Integrations</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="drop2" 
+    <nav class="position-absolute navbar navbar-expand-md">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" >
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+        aria-expanded="false" aria-label="Toggle navigation">
+        <img src="images/icon-hamburger.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto firstnav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="drop1" 
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Company
-              </a>
-              <div class="dropdown-menu" aria-labelledby="drop2">
-                <a class="dropdown-item" href="#">About</a>
-                <a class="dropdown-item" href="#">Team</a>
-                <a class="dropdown-item" href="#">Blog</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="drop3"  
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Connect
-              </a>
-              <div class="dropdown-menu" aria-labelledby="drop3">
-                <a class="dropdown-item" href="#">Contact</a>
-                <a class="dropdown-item" href="#">Newsletter</a>
-                <a class="dropdown-item" href="#">LinkedIn</a>
-              </div>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a></li>
-            
-            <button class="btn btn1" type="submit">Sign Up</button>
-          </ul>
-        </div>
-      </nav>
-    </div>
+              Product
+            </a>
+            <div class="dropdown-menu" aria-labelledby="drop1">
+              <a class="dropdown-item" href="#">Overview</a>
+              <a class="dropdown-item" href="#">Pricing</a>
+              <a class="dropdown-item" href="#">Marketplace</a>
+              <a class="dropdown-item" href="#">Features</a>
+              <a class="dropdown-item" href="#">Integrations</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="drop2" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Company
+            </a>
+            <div class="dropdown-menu" aria-labelledby="drop2">
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="#">Blog</a>
+              <a class="dropdown-item" href="#">Careers</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="drop3"  
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Connect
+            </a>
+            <div class="dropdown-menu" aria-labelledby="drop3">
+              <a class="dropdown-item" href="#">Contact</a>
+              <a class="dropdown-item" href="#">Newsletter</a>
+              <a class="dropdown-item" href="#">LinkedIn</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a></li>
+          
+          <button class="btn btn1" type="submit">Sign Up</button>
+        </ul>
+      </div>
+    </nav>
     <div class="text-center header-content">
       <h1>A modern publishing platform</h1>
       <p>Grow your audience and build your online brand</p>
@@ -85,6 +83,9 @@
     <div class="container">
       <h1 class="text-center">Designed for the future</h1>
       <div class="row">
+        <div class="col-md-6 hideImage">
+          <img src="images/illustration-editor-mobile.svg" alt="">
+        </div>
         <div class="col-md-6">
           <article>
             <h3>Introducing an extensible editor</h3>
@@ -106,6 +107,9 @@
   <section class="section2">
     <div class="container">
       <div class="row">
+        <div class="col-md-6 hideImage">
+          <img src="images/illustration-phones.svg" alt="">
+        </div>
         <div class="col-md-6 ml-auto">
           <h1>State of the Art Infrastructure</h1>
           <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
@@ -118,6 +122,9 @@
   <section class="section3">
     <div class="container">
       <div class="row">
+        <div class="col-md-6 hideImage">
+          <img src="images/illustration-laptop-mobile.svg" alt="">
+        </div>
         <div class="col-md-6 ml-auto">
           <article>
             <h3>Free, open, simple</h3>

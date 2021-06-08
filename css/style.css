@@ -5,6 +5,16 @@ header {
     border-bottom-left-radius: 100px;
     color: hsl(0, 0%, 100%);
 }
+.header-content {
+    height: inherit;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    width: 100%;
+    padding: 2% 4% !important;
+}
 header nav a {
     color: hsl(0, 0%, 100%);
 }
@@ -41,14 +51,6 @@ header nav>div {
     background-color: hsl(0, 0%, 100%);
     color: hsl(356, 100%, 66%);
 }
-
-.header-content {
-    height: 350px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-}
-
 .section1 {
     background-image: url(../images/illustration-editor-desktop.svg);
     background-position-x: 120%;
@@ -57,10 +59,12 @@ header nav>div {
     background-repeat: no-repeat;
     color: hsl(207, 13%, 34%);
 }
+section .hideImage {
+    display: none;
+}
 
 .section2 {
     background-image: url(../images/illustration-phones.svg), linear-gradient(to right ,hsl(237, 17%, 21%),hsl(237, 23%, 32%) );
-    background-position-x: 10%;
     background-position-y: center;
     background-repeat: no-repeat;
     border-bottom-left-radius: 100px;
@@ -72,7 +76,6 @@ header nav>div {
 }
 
 .section3 {
-    height: 700px;
     background-image: url(../images/illustration-laptop-desktop.svg);
     background-position-x: -40%;
     background-position-y: center;
@@ -86,7 +89,7 @@ header nav>div {
 }
 
 section {
-    padding: 9% 0;
+    padding: 100px 0;
 }
 section h1 {
     padding-bottom: 6%;
@@ -121,3 +124,61 @@ footer ul li:first-child {
     padding-bottom: 30px; 
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 375px) {
+    .navbar-collapse {
+        background: hsl(0, 0%, 100%);
+        text-align: center;
+        padding: 3%;
+        border-radius: 5px;
+    }
+    .navbar-collapse a, .navbar-collapse a:hover {
+        color: hsl(208, 49%, 24%);
+    }
+    .navbar-collapse li.show a, .dropdown-menu a {
+        color: hsl(207, 13%, 34%);
+    }
+    .firstnav {
+        border-bottom: 1px solid #ddd;
+    }
+    .navbar-nav {
+        padding: 10px;
+    }
+    .navbar-nav li, .navbar-nav a {
+        padding: 7px;
+    }
+    .dropdown-menu {
+        text-align: center;
+        background-color: #eee;
+        border: 5px solid #eee;
+    }
+    ul .btn1 {
+        background-image: linear-gradient(to right ,hsl(13, 100%, 72%),hsl(353, 100%, 62%) );
+        color: hsl(0, 0%, 100%);
+        width: 120px;
+        align-self: center;
+    }
+    section .hideImage {
+        display: block;
+    }
+    section img {
+        width: 100%;
+    }
+    .section1, .section3 {
+        text-align: center;
+        background-image: none;
+    }
+    .section2 .hideImage {
+        position: absolute;
+        top: 1450px;
+    }
+    .section2 {
+        background-image: linear-gradient(to right ,hsl(237, 17%, 21%),hsl(237, 23%, 32%) );
+        padding-top: 200px;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+}
