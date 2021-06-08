@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Built with
 
-- HTMLs
+- HTML5
 - CSS
 
 ### What I learned
