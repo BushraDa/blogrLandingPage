@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/html-css-bootstrap-NltRfy2BG)
-- Live Site URL: [Add live site URL here](https://bushrada.github.io/blogrLandingPage/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/html-css-bootstrap-NltRfy2BG)
+- Live Site URL: [live site URL](https://bushrada.github.io/blogrLandingPage/)
 
 ## My process
 
